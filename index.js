@@ -83,8 +83,8 @@ app.post('/send', async (req, res) => {
   }
 });
 
-app.listen(8000, () => {
-  console.log('Express server running on http://localhost:8000');
+app.listen(9898, () => {
+  console.log('Express server running on http://localhost:9898');
 });
 
 // Set up the Discord client
