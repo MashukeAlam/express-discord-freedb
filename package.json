@@ -1,0 +1,17 @@
+{
+  "name": "freedb",
+  "version": "1.0.0",
+  "description": "Using discord as a database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mashuke Alam Jim",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
