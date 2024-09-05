@@ -8,6 +8,7 @@ require('dotenv').config();
 
 // Load environment variables
 const TOKEN = process.env.DISCORD_TOKEN;
+const PORT = process.env.PORT || 9898;
 
 // Set up the Express app
 const app = express();
@@ -83,8 +84,8 @@ app.post('/send', async (req, res) => {
   }
 });
 
-app.listen(9898, () => {
-  console.log('Express server running on http://localhost:9898');
+app.listen(PORT, () => {
+  console.log(`Express server running on http://localhost:${PORT}`);
 });
 
 // Set up the Discord client
